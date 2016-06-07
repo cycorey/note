@@ -14,4 +14,6 @@ oracle官网下载并解压 instantclient-basic-windows.x64-12.1.0.2.0.zip， in
 不报错的话，就说明安装成功了。
 
 # https://github.com/bodyno/react-starter-kit 在windows下的安装
+PhantomJS 离线下载好，放在 path 环境变量中；
 
+node-sass， node-gyp 需要注意，是否安装成功【node-sass没安装成功的话，会提示 node-sass\vendor 目录不存在，但实际上它需要找它下面的子目录下的native dll/lib，这时需配好环境变量，执行 npm rebuild node-sass，成功了才可以】
