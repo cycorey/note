@@ -13,5 +13,7 @@ npm i --registry=http://localhost:8081/nexus/content/repositories/cnpm/ hbase-cl
 
 nexus安装为windows服务
 cd C:\t\nexus\nexus-2.13.0-01\bin
-nexus install
-nexus start
+
+`nexus install`
+
+`nexus start`
